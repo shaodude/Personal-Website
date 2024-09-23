@@ -5,31 +5,29 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Personal Portfolio Site')
+        meta(name='author', content='Goh Shao Yi')
 
-        title Resume - Start Bootstrap Theme
+        title Goh Shao Yi
 
-        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon-new.ico')
 
         // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
-
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anon1ymous')
+        //  Devicon
+        link(href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css", rel="stylesheet", type="text/css")
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
-
+        link(href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap', rel='stylesheet', type='text/css')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
     body#page-top
-
         // Navigation
-        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-secondary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
-                span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+                span.d-block.d-lg-none Goh Shao Yi                    
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
@@ -41,211 +39,280 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
 
         // Page Content
-        .container-fluid.p-0
+        .container-fluid.p-0.bg-dark
 
             // About
             section#about.resume-section
                 .resume-section-content
-                    h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
-                    .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
-                    p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-                    .social-icons
-                        a.social-icon(href='#!')
-                            i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
-                            i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
+                    .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
+                        div.d-flex.flex-column
+                            img.img-fluid.mx-auto.custom-img(src='assets/img/profile.jpg', alt='...')
+                        div.d-flex.flex-column
+                            h2.mb-0.text-white
+                                | Goh
+                                span.text-primary Shao Yi
+                            .subheading.mb-5.text-white
+                                | Singapore Citizen |
+                                a.custom-link(href='mailto:shaoyigoh@hotmail.com') shaoyigoh@hotmail.com
 
+                            .social-icons.d-flex.flex-row.align-items-end
+                                a.no-underline(href='./assets/docs/CV2024_ShaoYi.pdf' target='_blank')
+                                    button.btn.custom-btn
+                                        | Resume
+                                a.social-icon(href='https://www.linkedin.com/in/goh-shao-yi-b28707118')
+                                    i.fab.fa-linkedin-in
+                                a.social-icon(href='https://github.com/shaodude')
+                                    i.fab.fa-github
+                    p.big.text-white
+                        | I am a highly motivated and fast learner with a keen eye for design. My passion and experience in software development and business allows me to understand core business needs and deliver visually compelling software solutions that helps businesses.
             hr.m-0
 
             // Experience
             section#experience.resume-section
                .resume-section-content
-                    h2.mb-5 Experience
+                    h2.mb-5.text-primary.header-text Experience
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            h3.mb-0 Director
+                            .subheading.mb-3 openwork pte ltd
+                            ul 
+                                li Led business development initiatives for home staging, furnishing, and minor renovation projects.
+                                li Managed client interactions, including conducting meetings, performing in-depth research and evaluations, and crafting compelling pitches to showcase the value of services.
+                                li Oversaw project management from concept to completion, ensuring quality and client satisfaction through effective coordination and execution.
+                                li Professionally managed and resolved conflicts that arise during operational activities, ensuring a positive representation of the company.
                         .flex-shrink-0
-                            span.text-primary March 2013 - Present
+                            span.text-primary.date-text Jan 2021 - Present
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                            h3.mb-0 Software Development Intern
+                            .subheading.mb-3  leaptechnology pte ltd
+                            ul 
+                                li Core development team for SaaS CRM web application. Building frontend features in Vue and integrating existing backend APIs developed in PHP Laravel. building and fixing both frontend and backend code as needed.
+                                li Engage with clients to showcase value and potential of software applications. Brainstorm and implement innovative features to enhance applications, driving continuous evolution and client satisfaction.
+                                li Developed a multi-platform (IOS/ Android) workflow system mobile application (Vue Ionic) for a security company. The mobile app primarily serves as a platform for security officers to perform operation processes.
+                                li Directly involved in the development of SQL database to accommodate evolving project requirements.
                         .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
+                            span.text-primary.date-text Nov 2023 - Apr 2024
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                            h3.mb-0 Finance Executive
+                            .subheading.mb-3 Singapore ministry of trade & industry
                         .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
+                            span.text-primary.date-text Sep 2020 - Sep 2021
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                            h3.mb-0 Reconnaissance Specialist
+                            .subheading.mb-3 Singapore armed forces - Army intelligence
                         .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
+                            span.text-primary.date-text May 2019 - Aug 2020
 
             hr.m-0
 
             // Education
             section#education.resume-section
                 .resume-section-content
-                    h2.mb-5 Education
+                    h2.mb-5.header-text Education
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            h3.mb-0 bachelor of computer science
+                            .subheading.mb-3 university of london (sim-uol)
+                            p.lead First Class Honors (Expected)
+                            .social-icons.d-flex.flex-row.align-items-center
+                                a.no-underline.mb-3(href='./assets/docs/Transcript_ShaoYi.pdf' target='_blank')
+                                    button.btn.custom-btn
+                                        | Transcript
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            span.text-primary.date-text Oct 2021 - Oct 2024
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h3.mb-0 diploma in banking & finance
+                            .subheading.mb-3  singapore polytechnic
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            span.text-primary.date-text Apr 2015 - Mar 2018
 
+            hr.m-0
+
+            
+            // Projects
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5.header-text Projects
+                    .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
+                        div.d-flex.flex-column
+                            img.img-fluid.mx-auto.custom-img-proj(src='assets/img/taskbull.png', alt='...')
+                        div.d-flex.flex-column.dyn-width
+                            div.d-flex.flex-row.gap-3.align-items-center.mb-1
+                                h3.text-primary.mb-0
+                                    | Taskbull
+                                a.custom-git(href='https://github.com/shaodude/taskbull')
+                                    i.fa-solid.fa-up-right-from-square
+                            p.lead.text-white
+                                | A modern task management mobile application developed using React Native and Expo for my Final Year Project (FYP). It features a robust custom task prioritization algorithm and offers a comprehensive set of features to provide users with an efficient and user-friendly experience.
+                    .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
+                        div.d-flex.flex-column
+                            img.img-fluid.mx-auto.custom-img-proj(src='assets/img/currency-master.png', alt='...')
+                        div.d-flex.flex-column.dyn-width
+                            div.d-flex.flex-row.gap-3.align-items-center.mb-1
+                                h3.text-primary.mb-0
+                                    | Currency Master
+                                a.custom-git(href='https://github.com/shaodude/currency-master')
+                                    i.fa-solid.fa-up-right-from-square
+                            p.lead.text-white
+                                | A mobile application developed using React Native and Expo as part of a Mobile Development Project. It fetches real-time exchange rate data from an API and allows users to perform currency conversions within the app.
             hr.m-0
 
             // Skills
             section#skills.resume-section
                 .resume-section-content
-                    h2.mb-5 Skills
+                    h2.mb-5.header-text Skills
                     .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
+                    ul.list-inline.dev-icons.dyn-width
                         li.list-inline-item
-                            i.fab.fa-html5
+                            a.vanilla(href="https://html.spec.whatwg.org/")
+                                i.devicon-html5-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-css3-alt
+                            a.vanilla(href="https://www.w3.org/Style/CSS/")
+                                i.devicon-css3-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-js-square
+                            a.vanilla(href="https://developer.mozilla.org/en-US/docs/Web/JavaScript")
+                                i.devicon-javascript-plain.colored
                         li.list-inline-item
-                            i.fab.fa-angular
+                            a.vanilla(href="https://vuejs.org/")
+                                i.devicon-vuejs-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-react
+                            a.vanilla(href="https://reactjs.org/")
+                                i.devicon-react-original-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-node-js
+                            a.vanilla(href="https://redux.js.org/")
+                                i.devicon-redux-original.colored
                         li.list-inline-item
-                            i.fab.fa-sass
+                            a.vanilla(href="https://nodejs.org/")
+                                i.devicon-nodejs-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-less
+                            a.vanilla(href="https://axios-http.com/")
+                                i.devicon-axios-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-wordpress
+                            a.vanilla(href="https://getbootstrap.com/")
+                                i.devicon-bootstrap-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-gulp
+                            a.vanilla(href="https://www.mysql.com/")
+                                i.devicon-mysql-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-grunt
+                            a.vanilla(href="https://www.sqlite.org/")
+                                i.devicon-sqlite-plain-wordmark.colored
                         li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
+                            a.vanilla(href="https://firebase.google.com/")
+                                i.devicon-firebase-plain-wordmark.colored
+                        li.list-inline-item
+                            a.vanilla(href="https://git-scm.com/")
+                                i.devicon-git-plain-wordmark.colored
+                        li.list-inline-item
+                            a.vanilla(href="https://ionicframework.com/")
+                                i.devicon-ionic-original-wordmark.colored
+                        li.list-inline-item
+                            a.vanilla(href="https://tailwindcss.com/")
+                                i.devicon-tailwindcss-plain-wordmark.colored
+                        li.list-inline-item
+                            a.vanilla(href="https://www.postman.com/")
+                                i.devicon-postman-plain.colored
+                    .subheading.mb-3 Design Tools
+                    ul.list-inline.dev-icons.dyn-width
+                        li.list-inline-item
+                            a.vanilla(href="https://www.adobe.com/")
+                                i.devicon-photoshop-plain.colored
+                        li.list-inline-item
+                            a.vanilla(href="https://www.canva.com/")
+                                i.devicon-canva-original.colored
+                        li.list-inline-item
+                            a.vanilla(href="https://www.figma.com/")
+                                i.devicon-figma-plain.colored
+                    .subheading.mb-1 Workflow
+                    ul.fa-ul.mb-3
+                        li.small
                             span.fa-li
-                                i.fas.fa-check
+                                i.fas.fa-check.text-primary
                             | Mobile-First, Responsive Design
-                        li
+                        li.small
                             span.fa-li
-                                i.fas.fa-check
+                                i.fas.fa-check.text-primary
                             | Cross Browser Testing & Debugging
-                        li
+                        li.small
                             span.fa-li
-                                i.fas.fa-check
+                                i.fas.fa-check.text-primary
                             | Cross Functional Teams
-                        li
+                        li.small
                             span.fa-li
-                                i.fas.fa-check
+                                i.fas.fa-check.text-primary
                             | Agile Development & Scrum
+                    .subheading.mb-1 Certifications
+                    ul.fa-ul.mb-3
+                        li.small
+                            span.fa-li
+                                i.fas.fa-check.text-primary
+                            | AWS Certified Cloud Practitioner
+                        li.small
+                            span.fa-li
+                                i.fas.fa-check.text-primary
+                            | UiPath RPA Developer Foundation
+                    .subheading.mb-1 Languages
+                    ul.fa-ul.mb-3
+                        li.small
+                            span.fa-li
+                                i.fas.fa-check.text-primary
+                            | English - Native Proficiency
+                        li.small
+                            span.fa-li
+                                i.fas.fa-check.text-primary
+                            | Chinese - Intermediate Proficiency
 
             hr.m-0
 
             // Interests
             section#interests.resume-section
                 .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
-
-            hr.m-0
-
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
-
+                    h2.mb-5.header-text Interests
+                    h3.mb-4 computer science student council
+                    .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
+                        div.d-flex.flex-column
+                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/cssc.jpg', alt='...')
+                        div.d-flex.flex-column.dyn-width
+                            div.d-flex.flex-row.gap-3.align-items-center.mb-3
+                                h3.text-white
+                                    | Marketing Director
+                            p.lead.text-white
+                                | As a founding member of the SIM-UOL Computer Science Student Council, I led design efforts, from club branding to EDM materials. I managed a team of 5 sub-committee members to extend the club's branding and social presence. For my contributions, I was honored with the university's IMPACT Award.
+                    h3.mb-4 Competitive Floorball
+                    .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
+                        div.d-flex.flex-column
+                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/floorball-uni.jpg', alt='...')
+                        div.d-flex.flex-column.dyn-width
+                            div.d-flex.flex-row.gap-3.align-items-center.mb-1
+                                h3.text-white
+                                    | Varsity League
+                            p.date-text.text-primary
+                                | May 2023 - Jan 2024
+                    .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
+                        div.d-flex.flex-column
+                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/floorball-altus.jpg', alt='...')
+                        div.d-flex.flex-column.dyn-width
+                            div.d-flex.flex-row.gap-3.align-items-center.mb-1
+                                h3.text-white
+                                    | SFA Floorball League
+                            p.date-text.text-primary
+                                | Jan 2024 - Apr 2024
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
 

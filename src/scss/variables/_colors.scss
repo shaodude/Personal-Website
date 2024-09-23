@@ -8,8 +8,15 @@ $gray-800: #343a40;
 
 // Override Bootstrap color system
 
-$orange: #bd5d38;
+$orange: #CD5334;
+$offwhite: #FBFAF8;
+$teal: #006C67;
+$grey: #1D1D1D;
 
 // Override Bootstrap default state colors
 
 $primary: $orange;
+$secondary: $teal;
+$dark: $grey;
+$white: $offwhite;
+

@@ -10,6 +10,11 @@
         font-weight: 800;
         letter-spacing: 0.05rem;
         text-transform: uppercase;
+        font-size: 1.25rem;
+
+        &:hover{
+            scale: 110%;
+        }
     }
 
     .navbar-toggler {
