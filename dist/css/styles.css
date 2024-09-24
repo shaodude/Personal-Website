@@ -10921,6 +10921,24 @@ li.small {
   transform: translateY(-7px);
 }
 
+.custom-btn-transcript {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+  margin-right: 1.5rem;
+  font-size: 1.1rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  border-radius: 1.3rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.custom-btn-transcript:hover {
+  background-color: #006c67;
+  color: var(--bs-white);
+}
+
 .custom-link {
   transition: background-color 0.4s ease, color 0.4s ease;
   color: var(--bs-info);
@@ -10930,7 +10948,7 @@ li.small {
 }
 
 .custom-git {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--bs-primary);
   transition: background-color 0.4s ease, color 0.4s ease;
 }

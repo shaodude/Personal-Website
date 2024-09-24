@@ -53,7 +53,7 @@ html(lang='en')
                 .resume-section-content
                     .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
                         div.d-flex.flex-column.mb-0
-                            img.img-fluid.mx-auto.custom-img(src='assets/img/profile.jpg', alt='...')
+                            img.img-fluid.mx-auto.custom-img(src='assets/img/profile.jpg', alt='...',oncontextmenu="return false;")
                         div.d-flex.flex-column
                             h2.mb-0.text-white
                                 | Goh
@@ -84,10 +84,10 @@ html(lang='en')
                             h3.mb-0 Director
                             .subheading.mb-3 openwork pte ltd
                             ul 
-                                li Led business development initiatives for home staging, furnishing, and minor renovation projects.
-                                li Managed client interactions, including conducting meetings, performing in-depth research and evaluations, and crafting compelling pitches to showcase the value of services.
-                                li Oversaw project management from concept to completion, ensuring quality and client satisfaction through effective coordination and execution.
-                                li Professionally managed and resolved conflicts that arise during operational activities, ensuring a positive representation of the company.
+                                li Lead business development initiatives for home staging, furnishing, and minor renovation projects.
+                                li Manage client interactions, including conducting meetings, performing in-depth research and evaluations, and crafting compelling pitches to showcase contextual value of services.
+                                li Oversee project management from concept to completion, ensuring quality and client satisfaction through effective coordination and execution.
+                                li Professionally manage and resolve conflicts that arise during operational activities, ensuring a positive representation of the company.
                         .flex-shrink-0
                             span.text-primary.date-text Jan 2021 - Present
 
@@ -131,7 +131,7 @@ html(lang='en')
                             p.lead First Class Honors (Expected)
                             .social-icons.d-flex.flex-row.align-items-center
                                 a.no-underline.mb-3(href='./assets/docs/Transcript_ShaoYi.pdf' target='_blank')
-                                    button.btn.custom-btn
+                                    button.btn.custom-btn-transcript
                                         | Transcript
                         .flex-shrink-0
                             span.text-primary.date-text Oct 2021 - Oct 2024
@@ -152,7 +152,7 @@ html(lang='en')
                     h2.mb-5.header-text Projects
                     .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
                         div.d-flex.flex-column
-                            img.img-fluid.mx-auto.custom-img-proj(src='assets/img/taskbull.png', alt='...')
+                            img.img-fluid.mx-auto.custom-img-proj(src='assets/img/taskbull.png', alt='...',oncontextmenu="return false;")
                         div.d-flex.flex-column.dyn-width
                             div.d-flex.flex-row.gap-3.align-items-center.mb-1
                                 h3.text-primary.mb-0
@@ -163,7 +163,7 @@ html(lang='en')
                                 | A modern task management mobile application developed using React Native and Expo for my Final Year Project (FYP). It features a robust custom task prioritization algorithm and offers a comprehensive set of features to provide users with an efficient and user-friendly experience.
                     .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
                         div.d-flex.flex-column
-                            img.img-fluid.mx-auto.custom-img-proj(src='assets/img/currency-master.png', alt='...')
+                            img.img-fluid.mx-auto.custom-img-proj(src='assets/img/currency-master.png', alt='...',oncontextmenu="return false;")
                         div.d-flex.flex-column.dyn-width
                             div.d-flex.flex-row.gap-3.align-items-center.mb-1
                                 h3.text-primary.mb-0
@@ -287,7 +287,7 @@ html(lang='en')
                     h3.mb-4 computer science student council
                     .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
                         div.d-flex.flex-column
-                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/cssc.jpg', alt='...')
+                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/cssc.jpg', alt='...',oncontextmenu="return false;")
                         div.d-flex.flex-column.dyn-width
                             div.d-flex.flex-row.gap-3.align-items-center.mb-3
                                 h3.text-white
@@ -297,22 +297,32 @@ html(lang='en')
                     h3.mb-4 Competitive Floorball
                     .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
                         div.d-flex.flex-column
-                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/floorball-uni.jpg', alt='...')
+                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/floorball-uni.jpg', alt='...',oncontextmenu="return false;")
                         div.d-flex.flex-column.dyn-width
                             div.d-flex.flex-row.gap-3.align-items-center.mb-1
                                 h3.text-white
                                     | Varsity League
                             p.date-text.text-primary
                                 | May 2023 - Jan 2024
+                            ul.fa-ul.mb-3
+                                li.small
+                                    span.fa-li
+                                        i.fas.fa-trophy.text-primary
+                                    | Singapore University Games (SUnig) 2023 Bronze Medal
+                                li.small
+                                    span.fa-li
+                                        i.fas.fa-trophy.text-primary
+                                    | Insitute-Varsity-Polytechnic Games (IVP) 2024
                     .d-flex.flex-row.gap-5.align-items-center.custom-break.mb-5
                         div.d-flex.flex-column
-                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/floorball-altus.jpg', alt='...')
+                            img.img-fluid.mx-auto.custom-img-int(src='assets/img/floorball-altus.jpg', alt='...',oncontextmenu="return false;")
                         div.d-flex.flex-column.dyn-width
                             div.d-flex.flex-row.gap-3.align-items-center.mb-1
                                 h3.text-white
                                     | SFA Floorball League
                             p.date-text.text-primary
                                 | Jan 2024 - Apr 2024
+ 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
 
